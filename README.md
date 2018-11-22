@@ -1,7 +1,7 @@
 # gta-ynov-vue
 Lien du build : https://sfongue.github.io
 
-## 
+## Projet
 Pour installer le projet
 ```
 npm install
@@ -15,3 +15,7 @@ Objectifs:
 - [x] Faire le tri dans les pages utiles
 - [x] Produire un 1e build fonctionnel
 - [x] Déployer le build
+
+### 22/11/2018
+Objectifs:
+- [ ] Création d'un planning
