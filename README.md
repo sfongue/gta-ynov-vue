@@ -1,7 +1,17 @@
 # gta-ynov-vue
-16/11/2018
-**Objectifs:**
+Lien du build : [sfongue.github.io] (https://sfongue.github.io)
+
+## 
+Pour installer le projet
+```
+npm install
+npm run serve
+```
+## Suivi du projet
+
+### 16/11/2018
+Objectifs:
 - [x] Installer CoreUI
-- [ ] Faire le tri dans les pages utiles
-- [ ] Produire un 1e build fonctionnel
-- [ ] Déployer le build
+- [x] Faire le tri dans les pages utiles
+- [x] Produire un 1e build fonctionnel
+- [x] Déployer le build
