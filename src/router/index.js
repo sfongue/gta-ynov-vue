@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 // Containers
 const DefaultContainer = () => import('@/containers/DefaultContainer')
-const LoginContainer = () => import('@/containers/LoginContainer')
+// const LoginContainer = () => import('@/containers/LoginContainer')
 
 // Views
 const Dashboard = () => import('@/views/Dashboard')
@@ -12,6 +12,9 @@ const Dashboard = () => import('@/views/Dashboard')
 const Page404 = () => import('@/views/pages/Page404')
 const Page500 = () => import('@/views/pages/Page500')
 const Login = () => import('@/views/pages/Login')
+
+// View - Planning 
+const Planning = () => import('@/views/planning/Planning')
 
 // Users
 const Users = () => import('@/views/users/Users')
@@ -26,19 +29,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/login',
-      name: '',
-      component: LoginContainer,
-      children: [
-        {
-          path: 'login',
-          name: 'Login',
-          component: Login
-        }
-      ]
-    },
-    {
-      path: '/dashboard',
+      redirect: '/dashboard',
       name: 'Home',
       component: DefaultContainer,
       children: [
@@ -66,6 +57,11 @@ export default new Router({
             },
           ]
         },
+        {
+          path: '/planning',
+          name: 'Planning',
+          component: Planning
+        }
       ]
     },
     {

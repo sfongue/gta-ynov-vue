@@ -1,8 +1,8 @@
 # gta-ynov-vue
 Lien du build : [sfongue.github.io] (https://sfongue.github.io)
 
-## 
-Pour installer le projet
+## Projet
+Pour lancer le projet :
 ```
 npm install
 npm run serve
