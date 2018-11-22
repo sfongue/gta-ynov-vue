@@ -1,5 +1,5 @@
 # gta-ynov-vue
-Lien du build : [déployement] (https://sfongue.github.io)
+Lien du build : https://sfongue.github.io
 
 ## 
 Pour installer le projet
