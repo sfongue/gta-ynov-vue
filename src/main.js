@@ -13,10 +13,11 @@ import FullCalendar from 'vue-full-calendar'
 import 'fullcalendar/dist/fullcalendar.css'
 Vue.use(FullCalendar)
 
-// todo
-// cssVars()
-
 Vue.use(BootstrapVue)
+
+Vue.component('modal', {
+  template: '#modal-template'
+})
 
 /* eslint-disable no-new */
 new Vue({
